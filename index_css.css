@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 10vh;
+  background: rgb(93, 91, 91);
+}
+.logo {
+  padding: 7vh;
+}
+.back_video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: fit-content;
+}
+.desc {
+  color: rgb(28, 29, 30);
+  text-align: center;
+  padding: 120px;
+}
+.res_img {
+  margin-bottom: 50vh;
+  padding: 50px;
+}
+.button {
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(240, 243, 243);
+  background-color: black;
+}
+.container-1 {
+  background-color: darkorange;
+}
